@@ -1,0 +1,65 @@
+body {
+  background-image:url('/images/monopoly.jpg');
+  background-size: cover;
+}
+  
+.container {
+  border: 1px solid#ffffff;
+  border-radius: 8px;
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #9def94;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb #000;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
+
+.recoverLink {
+  color: #000;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.registerButton {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.error {
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+}
+
+.loading {
+  color: #ff0000;
+}
